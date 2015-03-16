@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="6eac83bd-c734-4730-80d3-f5ef019c36d6" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:2143/EmpService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="EmpService.disco" MetadataType="Disco" ID="6b6099f5-93e0-422f-be5a-2c1885f7dd33" SourceId="1" SourceUrl="http://localhost:2143/EmpService.svc?disco" />
+    <MetadataFile FileName="EmpService.xsd" MetadataType="Schema" ID="5eece239-a8e5-42cc-934c-b3a7ca180442" SourceId="1" SourceUrl="http://localhost:2143/EmpService.svc?xsd=xsd0" />
+    <MetadataFile FileName="EmpService1.xsd" MetadataType="Schema" ID="fd2bb97b-1adb-47a4-bcc3-a93246b90ca4" SourceId="1" SourceUrl="http://localhost:2143/EmpService.svc?xsd=xsd1" />
+    <MetadataFile FileName="EmpService.wsdl" MetadataType="Wsdl" ID="aeb09a31-dbf7-4439-8968-c654b454b6a5" SourceId="1" SourceUrl="http://localhost:2143/EmpService.svc?wsdl" />
+    <MetadataFile FileName="EmpService2.xsd" MetadataType="Schema" ID="e20ca5bb-8076-413c-ad6a-e972e9e3f455" SourceId="1" SourceUrl="http://localhost:2143/EmpService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
